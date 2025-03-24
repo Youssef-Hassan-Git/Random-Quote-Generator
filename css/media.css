@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {    
+
+
+    .container .font{
+        font-size: 60px;
+    }
+
+    .container .font-quote{
+        font-size: 18px;
+    }
+
+    .container .fontParagraph{
+        font-size: 21px;
+    }
+
+}
