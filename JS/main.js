@@ -20,14 +20,23 @@ var quotes = [
         quote: "It's not what happens to you, but how you react to it that matters.",
         author: "--Epictetus"
      }
-    ]
+    ];
   
 
-document.getElementById("demo").onclick = function(){
+
+function generateQuote(){
     var index = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").innerHTML =  quotes[index].quote;
     document.getElementById("author").innerHTML = quotes[index].author;
+}
 
-};
+// document.getElementById("demo").onclick = function(){
+//     var index = Math.floor(Math.random() * quotes.length);
+//     document.getElementById("quote").innerHTML =  quotes[index].quote;
+//     document.getElementById("author").innerHTML = quotes[index].author;
+
+// };
+
+
 
 
